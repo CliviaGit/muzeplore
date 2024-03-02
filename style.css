@@ -1,0 +1,43 @@
+@font-face {
+    font-family: museumb;
+    src: url(LTMuseum-Bold.ttf);
+  }
+
+@font-face {
+    font-family: museumr;
+    src: url(LTMuseum-Reg.ttf);
+}
+
+body {
+    background-color: #ccb38f;
+}
+.center {
+    text-align: center;
+}
+
+.head1 {
+    background-color: #ccb38f;
+    font-size: 100px;
+    font-family: museumb;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: museumb;
+    padding: 30px;
+}
+
+p {
+    font-family: museumr;
+    font-size: 30px;
+}
+
+.button {
+    font-family: museumb;
+    font-size: 30px;
+    background-color: #633b00;
+    border: 20px solid #633b00;
+    border-radius: 90px;
+    text-decoration: none;
+    color: #ccb38f;
+}
