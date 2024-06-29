@@ -11,6 +11,7 @@
 body {
     background-color: #ccb38f;
 }
+
 .center {
     text-align: center;
 }
@@ -40,4 +41,14 @@ p {
     border-radius: 90px;
     text-decoration: none;
     color: #ccb38f;
+}
+
+.logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: museumb;
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
 }
