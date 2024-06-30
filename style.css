@@ -10,6 +10,26 @@
 
 body {
     background-color: #ccb38f;
+    color: black;
+    font-family: museumr;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+a {
+    font-size: 50px;
+    color: black;
+}
+
+.homegallink {
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 .center {
@@ -19,22 +39,9 @@ body {
 .head1 {
     background-color: #ccb38f;
     font-size: 100px;
-    font-family: museumb;
-}
-
-h2 {
-    font-size: 50px;
-    font-family: museumb;
-    padding: 30px;
-}
-
-p {
-    font-family: museumr;
-    font-size: 30px;
 }
 
 .button {
-    font-family: museumb;
     font-size: 30px;
     background-color: #633b00;
     border: 20px solid #633b00;
@@ -46,9 +53,7 @@ p {
 .logo {
     padding-left: 15px;
     padding-right: 15px;
-    font-family: museumb;
     font-weight: 700;
     font-size: 50px;
     text-decoration: none;
-    color: black;
 }
