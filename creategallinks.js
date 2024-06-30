@@ -1,7 +1,6 @@
-for (let i = 0; i < 6; i++) {
-    let link = document.createElement("a");
-    let node = document.createElement("Gallery" + i);
-    link.appendChild(node);
-    let div = document.getElementById("gallinks");
-    div.appendChild(link);
-}
+const link = document.createElement("a");
+const node = document.createTextNode("Gallery 1");
+link.appendChild(node);
+link.href = "gall1.html"
+const div = document.getElementById("gallinks");
+div.appendChild(link);

@@ -5,7 +5,12 @@
 
 @font-face {
     font-family: museumr;
-    src: url(LTMuseum-Reg.ttf);
+    src: url(/home/joefoster/Documents/Muzeplore/lt_museum/LTMuseum-Reg.ttf);
+}
+
+@font-face {
+    font-family: museumin;
+    src: url(LTMuseum-Inline.ttf);
 }
 
 body {
@@ -15,7 +20,8 @@ body {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 65px;
+    font-weight: 100;
 }
 
 p {
@@ -23,7 +29,7 @@ p {
 }
 
 a {
-    font-size: 50px;
+    font-size: 40px;
     color: black;
 }
 
@@ -39,9 +45,18 @@ a {
 .head1 {
     background-color: #ccb38f;
     font-size: 100px;
+    font-weight: 80;
+}
+
+.about {
+    font-size: 30px;
+    margin: left;
+    max-width: 50%;
+    max-height: 100px;
 }
 
 .button {
+    font-family: museumr;
     font-size: 30px;
     background-color: #633b00;
     border: 20px solid #633b00;
@@ -53,7 +68,16 @@ a {
 .logo {
     padding-left: 15px;
     padding-right: 15px;
+    font-weight: 500;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.mlogo {
+    padding-left: 15px;
+    padding-right: 15px;
     font-weight: 700;
     font-size: 50px;
+    font-family: museumin;
     text-decoration: none;
 }
