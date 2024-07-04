@@ -31,6 +31,7 @@ p {
 a {
     font-size: 40px;
     color: black;
+    transition: 0.5s;
 }
 
 .topnav a:hover {
@@ -74,6 +75,7 @@ a {
     border-radius: 90px;
     text-decoration: none;
     color: #ccb38f;
+    transition: 0.3s;
 }
 
 .button:hover {
