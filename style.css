@@ -33,6 +33,12 @@ a {
     color: black;
 }
 
+.topnav a:hover {
+    background-color: #633b00;
+    color: #ccb38f;
+    transition: 0.5s;
+}
+
 .find {
     padding: 30px;
 }
@@ -68,6 +74,13 @@ a {
     border-radius: 90px;
     text-decoration: none;
     color: #ccb38f;
+}
+
+.button:hover {
+    color: #885914;
+    background-color: #ffecd0;
+    border: 20px solid #ffecd0;
+    transition: 0.3s;
 }
 
 .logo {
